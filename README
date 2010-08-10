@@ -1,0 +1,22 @@
+Usage:
+- add pyopeninviter to your python path
+- see the comments in api.py and the examples in test.py
+
+When upgrading OpenInviter:
+- it doesn't matter what URL you use during registration
+- put the library in the 'OpenInviter' dir
+- delete or rename postinstall.php
+
+Changes to the OpenInviter library:
+- commented out the allowed_domains check from checkLoginCredentials() - openinviter.php:467
+
+Dependencies:
+- for OpenInviter:
+-- php5-cli
+-- php5-curl or wget (edit OpenInviter/config.php if you want to use wget)
+- for the python API:
+-- simplejson or the json module shipped with python-2.6 and higher
+
+License:
+- the same licence as OpenInviter: GPLv2
+
