@@ -1,3 +1,5 @@
+pyopeninviter is a python wrapper for the excellent (but coded in PHP) contact importer from http://openinviter.com/
+
 Usage:
 - add pyopeninviter to your python path
 - see the comments in api.py and the examples in test.py
@@ -19,4 +21,7 @@ Dependencies:
 
 License:
 - the same licence as OpenInviter: GPLv2
+
+Homepage:
+- http://od-eon.com/labs/pyopeninviter/
 
